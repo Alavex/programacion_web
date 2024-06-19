@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar y Salud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienestar y Salud</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <h2>Artículos</h2>
+            <ul id="article-list"></ul>
+        </aside>
+        <main>
+            <div id="motivational-message">
+                <h2>Aquí empieza un nuevo día</h2>
+                <p>Mantén una mente sana con nuestros artículos sobre salud mental.</p>
+            </div>
+            <div id="article-content" style="display:none;">
+                <h2 id="article-title"></h2>
+                <p id="article-body"></p>
+                <div id="comments-section">
+                    <h3>Comentarios</h3>
+                    <ul id="comments-list"></ul>
+                    <form id="add-comment-form">
+                        <input type="text" id="username" placeholder="Nombre de usuario" required>
+                        <textarea id="comment" placeholder="Comentario" required></textarea>
+                        <button type="submit">Añadir comentario</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>2024 Portal de Salud y Bienestar. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
